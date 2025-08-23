@@ -20,7 +20,6 @@ class ChessHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
 
 def main():
     # Change to the game directory
-    os.chdir('/opt/game')
     
     PORT = 8080
     
